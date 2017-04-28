@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/luggit/react-native-config.git", :tag => "#{s.version}" }
 
-  s.source_files  = "ios/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m,ruby}"
   s.requires_arc = true
 
   s.dependency "React"
